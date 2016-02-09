@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: url("http://demandware.edgesuite.net/sits_pod21/dw/image/v2/AAIZ_PRD/on/demandware.static/-/Sites-gaiam-master-catalog/default/dwe17bffb8/05-0000/05-60526_A.jpg?sw=1340");
+	background: url("../images/yoga_mat.jpg");
 	background-size: cover;
 	font-family: "Arial", sans serif;
 	margin-left: 250px;
@@ -13,28 +13,31 @@ h1 {
 	font-family: "Times New Roman", serif;
 }
 
-h2 {
-	font-size: 20px;
-}
 
-div {
+section {
 	color: #FFFFFF;
 	padding: 50px;
 }
 
-#sloggan {
+h2 {
 	font-style: italic;
 	font-size: 20px;
 }
 
+h3 {
+	font-size: 30px;
+}
+
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+footer {
+	display: inline;
+	color: #FFFFFF;
 }
 
 #contact {
-	position: fixed;
-	text-align: center;
-	bottom: 0px;
-	width: 100%;
 	color: #FFFFFF;
 }
