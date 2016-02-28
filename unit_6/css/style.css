@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+	text-align: center;
+	background: url("../images/yoga_mat.jpg");
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+/*	margin-left: 250px;
+	margin-right: 250px;*/
+}
+
+h1 {
+	color: #431370;
+	font-size: 50px;
+	font-family: 'Dr Sugiyama', cursive;
+}
+
+
+h2 {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: Georgia, serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#contact {
+	color: #FFFFFF;
+}
+
+a: visited {color: blue;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+ }
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 25%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
