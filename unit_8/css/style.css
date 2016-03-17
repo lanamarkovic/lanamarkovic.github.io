@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+	text-align: center;
+	background: url("../images/yoga_mat.jpg");
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+h1 {
+	color: #431370;
+	font-size: 3em;
+	font-family: 'Dr Sugiyama', cursive;
+	padding: 0;
+}
+
+
+h2 {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #431370;
+}
+
+p {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: Georgia, serif;
+}
+
+section {
+	color: #FFFFFF;
+	padding: 50px;
+}
+
+nav {
+	color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+}
+
+footer {
+	display: inline;
+	color: #FFFFFF;
+}
+
+#contact {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: blue;
+}
+
+@media only screen and (max-width: 871px) {
+	h2 {
+		text-align: center;
+		padding: 0 20%;
+		color: #FFFFFF;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+	body {
+		background-position: center;
+		margin: 10%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	body {
+		margin: 0;
+	}
+	h1{
+		padding: 15%;
+	}
+	h2 {
+		padding: 0;
+	}
+	#contact {
+		color: #431370;
+		font-weight: bold;
+	}
+}
+
+
