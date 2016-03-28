@@ -40,9 +40,12 @@ h2 {
 	color: #431370;
 }
 
-p {
-	font-size: 16px;
+article {
+	background: #431370;
+	opacity: 0.8;
+	padding: 4%;
 }
+
 
 h3 {
 	font-size: 1.5em;
@@ -51,7 +54,11 @@ h3 {
 
 section {
 	color: #FFFFFF;
-	padding: 8%;
+	padding: 4%;
+}
+
+#toggle {
+	display: none;
 }
 
 #images {
@@ -62,12 +69,14 @@ section {
 	width: 350px;
 	height: auto;
 	float: left;
+	padding: 1%;
 }
 
 #mind {
 	width: 350px;
 	height: auto;
 	float: right;
+	padding: 1%;
 }
 
 .clearfix:after {
@@ -85,19 +94,33 @@ nav {
 
 ul {
     list-style-type: none;
-    padding: 0;
     font-size: 1em;
     text-decoration: underline;
+    padding: 0;
+}
+
+label {
+    list-style-type: none;
+    font-size: 1.5em;
+    text-decoration: underline;
+    display: none;
 }
 
 footer {
 	display: inline;
-	color: #FFFFFF;
+	background: #FFFFFF;
+	margin: 10%;
+}
+
+li {
+	padding: 5px;
 }
 
 #contact {
 	display: inline;
-	color: #FFFFFF;
+	background: #FFFFFF;
+	color: #431370;
+	font-weight: bold;
 }
 
 a:visited {
@@ -115,7 +138,7 @@ a:visited {
 	}*/
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1041px) {
 	h2 {
 		text-align: center;
 		padding: 0 20%;
@@ -184,13 +207,25 @@ a:visited {
 		padding: 2%;
 	}
 
+	li {
+		padding: 10px;
+	}
+
 	#images {
 		display: none;
 	}
 
-	#contact {
-		color: #431370;
-		font-weight: bold;
+	label {
+		display: block;
+		padding: 5%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#toggle:checked + nav{
+		display: block;
 	}
 }
 
