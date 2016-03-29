@@ -166,7 +166,7 @@ a:visited {
 	h2 {
 		text-align: center;
 		padding: 0 20%;
-		color: #FFFFFF;
+		color: #431370;
 	}
 
 	h3 {
@@ -205,6 +205,7 @@ a:visited {
 	}
 	h2 {
 		padding: 2%;
+		color: #431370;
 	}
 
 	li {
@@ -212,7 +213,17 @@ a:visited {
 	}
 
 	#images {
-		display: none;
+		display: block;
+		margin: 1em 0em;
+		padding: 0em 1.5em;
+	}
+
+	#core {
+		width: 100%;
+	}
+
+	#mind {
+		width: 100%;
 	}
 
 	label {
