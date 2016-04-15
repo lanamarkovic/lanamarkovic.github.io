@@ -119,7 +119,7 @@ li {
 }
 
 #contact {
-	display: inline;
+	/*display: inline;*/
 	background: #FFFFFF;
 	color: #431370;
 	font-weight: bold;
@@ -245,5 +245,6 @@ a:visited {
 		margin: 1em;
 	}
 }
+
 
 
