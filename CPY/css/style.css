@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+	text-align: center;
+	background: url("../images/yoga_mat.jpg");
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+/*.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+#yogamat {
+	position: absolute;
+	top: 2em;
+	z-index: 1;
+}*/
+
+h1 {
+	color: #431370;
+	font-size: 3em;
+	font-family: 'Dr Sugiyama', cursive;
+	/*padding: 0;*/
+}
+
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #431370;
+}
+
+article {
+	background: #431370;
+	opacity: 0.8;
+	padding: 4%;
+}
+
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+section {
+	color: #FFFFFF;
+	padding: 4%;
+}
+
+#toggle {
+	display: none;
+}
+
+#images {
+	display: inline;
+}
+
+#core {
+	width: 350px;
+	height: auto;
+	float: left;
+	padding: 1%;
+}
+
+#mind {
+	width: 350px;
+	height: auto;
+	float: right;
+	padding: 1%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+nav {
+	color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1em;
+    text-decoration: underline;
+    padding: 0;
+}
+
+label {
+    list-style-type: none;
+    font-size: 1.5em;
+    text-decoration: underline;
+    display: none;
+}
+
+footer {
+	display: inline;
+	background: #FFFFFF;
+	margin: 10%;
+}
+
+li {
+	padding: 5px;
+}
+
+#contact {
+	display: inline;
+	background: #FFFFFF;
+	color: #431370;
+	font-weight: bold;
+}
+
+a:visited {
+	color: blue;
+}
+
+@media only screen and (min-width: 1440px) {
+	body {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+	/*footer {
+		position: bottom;
+		bottom: 5em;
+	}*/
+}
+
+@media only screen and (max-width: 1041px) {
+	h2 {
+		text-align: center;
+		padding: 0 20%;
+		color: #FFFFFF;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+	body {
+		background-position: center;
+		margin: 10%;
+	}
+
+	#core {
+	float: none;
+	}
+
+	#mind {
+	float: none;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	h2 {
+		text-align: center;
+		padding: 0 20%;
+		color: #431370;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+	body {
+		background-position: center;
+		margin: 10%;
+	}
+
+	#core {
+	float: none;
+	}
+
+	#mind {
+	float: none;
+	}
+
+	#contact {
+		color: #431370;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	header {
+		margin: 0;
+	}
+
+	body {
+		margin: 0;
+	}
+	h1{
+		padding: 2%;
+	}
+	h2 {
+		padding: 2%;
+		color: #431370;
+	}
+
+	li {
+		padding: 10px;
+	}
+
+	#images {
+		display: block;
+		margin: 1em 0em;
+		padding: 0em 1.5em;
+	}
+
+	#core {
+		width: 100%;
+	}
+
+	#mind {
+		width: 100%;
+	}
+
+	label {
+		display: block;
+		padding: 5%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+}
+
+
